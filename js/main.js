@@ -179,7 +179,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
-
+let num = numArrays[2][1];
 
 console.log('Exercise 14 Result:\n', num);
 
@@ -191,6 +191,11 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
-
+let total = 0;
+numArrays.forEach(function(numArr) {
+  numArr.forEach(function(num) {
+    total += num;
+  });
+});
 
 console.log('Exercise 15 Result:\n', total);
