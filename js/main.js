@@ -15,7 +15,7 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
-foods.push('pizza, cheeseburger')
+foods.push('pizza', 'cheeseburger')
 
 
 console.log('Exercise 2 Result:\n',  foods);
@@ -48,7 +48,7 @@ Exercise 5:
 */
 
 // Complete Exercise 5 below...
-
+foods.splice(2, 0, 'tofu');
 
 
 console.log('Exercise 5 Result:\n', foods);
